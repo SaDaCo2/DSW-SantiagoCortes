@@ -1,0 +1,38 @@
+header{
+    background-color: #F9FD50;
+    color:black;
+    text-align: center;
+    display: grid;
+}
+nav{
+    background-color: #85EF47;
+    display: grid; 
+}
+section{
+    background-color: #00BD56;
+    grid-column: 1/3;
+    display: grid;
+}
+aside{
+    background-color: #207DFF;
+    grid-column: 3/4;
+    display: grid;
+}
+footer{
+    background-color: #69DADB;
+    display: grid;   
+}
+main{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+.centrado{
+    text-align: center;
+}
+.justificado{
+    text-align: justify;
+}
+.img{
+    display: block;
+    margin: auto;
+}
